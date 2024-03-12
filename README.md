@@ -41,3 +41,5 @@ tohyo_button.php内の以下の部分
     }
 ```
 ボタン画像に紐づいたsubmit1()内のwindow.openerメソッドが作用。window.openerメソッドは親ウィンドウに紐づいたjsを操作できるメソッド。これでtohyo_shukei.phpに結びついたclicked1()を操作できる。
+
+このwindow.open/window.opnerで一方の画面でもう一方の画面を操作するのが上手にできるはず。
