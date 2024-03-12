@@ -25,7 +25,7 @@ function OpenWin(){
  }
  window.addEventListener('load', OpenWin());
 ```
-OpenWin（）関数のwindow.open()メソッドは最初の引数のページを開けるメソッド。これをaddEventListener('load', OpenWin())に登録することで画面load時に勝手に目的のページを開いてくれる。この関数を使うことで最初に開いたページ＆自動で開いたページに親子関係を作ることができる。
+OpenWin()関数のwindow.open()メソッドは最初の引数のページを開けるメソッド。これをaddEventListener('load', OpenWin())に登録することで画面load時に勝手に目的のページを開いてくれる。この関数を使うことで最初に開いたページ＆自動で開いたページに親子関係を作ることができる。
 
 ## tohyo_button.phpのボタンでなぜtohyo_shukei.phpが自動更新されるか
 tohyo_button.php内の以下の部分
